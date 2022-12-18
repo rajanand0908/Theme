@@ -9,6 +9,95 @@ import UIKit
 
 final class HomeView: UIView {
   
+  // MARK: - Properties
+  
+  let titleLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.title.font
+    label.textColor = .black
+    label.text = "Title"
+    return label
+  }()
+  
+  let secondaryTitleLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.secondaryTitle.font
+    label.textColor = .black
+    label.text = "Title Secondary"
+    return label
+  }()
+  
+  let bodyTitleLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.bodyTitle.font
+    label.textColor = .black
+    label.text = "Body Title"
+    return label
+  }()
+  
+  let bodyLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.body.font
+    label.textColor = .black
+    label.text = "Body"
+    return label
+  }()
+  
+  let bodySecondaryLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.bodySecondary.font
+    label.textColor = .black
+    label.text = "Body Secondary"
+    return label
+  }()
+  
+  let inputLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.input.font
+    label.textColor = .black
+    label.text = "Input"
+    return label
+  }()
+  
+  let buttonLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.button.font
+    label.textColor = .black
+    label.text = "Button"
+    return label
+  }()
+  
+  let detailLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.detail.font
+    label.textColor = .black
+    label.text = "Detail"
+    return label
+  }()
+  
+  let detailSecondaryLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.detailSecondary.font
+    label.textColor = .black
+    label.text = "Detail Secondary"
+    return label
+  }()
+  
+  let captionLabel: UILabel = {
+    let label = UILabel()
+    label.font = TextStyle.caption.font
+    label.textColor = .black
+    label.text = "Caption"
+    return label
+  }()
+  
+  private let stackView: UIStackView = {
+    let stack = UIStackView()
+    stack.axis = .vertical
+    stack.spacing = 15
+    return stack
+  }()
+  
   // MARK: - Lifecycle
   
   override init(frame: CGRect) {
@@ -28,6 +117,15 @@ private extension SetupHelper {
   
   func setupUI() {
     backgroundColor = .white
+    
+    stackView.addArrangedSubviews(
+      titleLabel, secondaryTitleLabel, bodyTitleLabel, bodyLabel, bodySecondaryLabel, inputLabel, detailLabel, detailSecondaryLabel, captionLabel)
+    addSubViewForAutoLayout(stackView)
+    
+    NSLayoutConstraint.activate([
+      stackView.centerXAnchor.constraint(equalTo: centerXAnchor),
+      stackView.centerYAnchor.constraint(equalTo: centerYAnchor)
+    ])
   }
   
 }
