@@ -14,6 +14,8 @@
 		BEDBBABC294F594900FB3984 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBABB294F594900FB3984 /* UIView+Extension.swift */; };
 		BEDBBABF294F597700FB3984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBABE294F597700FB3984 /* ViewController.swift */; };
 		BEDBBAC1294F599800FB3984 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAC0294F599800FB3984 /* CustomViewController.swift */; };
+		BEDBBAC6294F5A2A00FB3984 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAC5294F5A2A00FB3984 /* HomeView.swift */; };
+		BEDBBAC8294F5A6700FB3984 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAC7294F5A6700FB3984 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BEDBBABB294F594900FB3984 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		BEDBBABE294F597700FB3984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEDBBAC0294F599800FB3984 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		BEDBBAC5294F5A2A00FB3984 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BEDBBAC7294F5A6700FB3984 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		BEDBBAB6294F585600FB3984 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BEDBBAC2294F5A0B00FB3984 /* Scenes */,
 				BEDBBAB7294F586300FB3984 /* Common */,
 			);
 			path = PresentationLayer;
@@ -124,6 +129,31 @@
 				BEDBBAC0294F599800FB3984 /* CustomViewController.swift */,
 			);
 			path = CustomViewController;
+			sourceTree = "<group>";
+		};
+		BEDBBAC2294F5A0B00FB3984 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBAC3294F5A1600FB3984 /* HomeView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BEDBBAC3294F5A1600FB3984 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBAC4294F5A1D00FB3984 /* Views */,
+				BEDBBAC7294F5A6700FB3984 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		BEDBBAC4294F5A1D00FB3984 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBAC5294F5A2A00FB3984 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +229,9 @@
 				BEDBBABC294F594900FB3984 /* UIView+Extension.swift in Sources */,
 				BEDBBABA294F592200FB3984 /* ViewContainer.swift in Sources */,
 				BEDBBAC1294F599800FB3984 /* CustomViewController.swift in Sources */,
+				BEDBBAC6294F5A2A00FB3984 /* HomeView.swift in Sources */,
 				BEDBBABF294F597700FB3984 /* ViewController.swift in Sources */,
+				BEDBBAC8294F5A6700FB3984 /* HomeViewController.swift in Sources */,
 				BEDBBAA0294F568A00FB3984 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
