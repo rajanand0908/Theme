@@ -19,6 +19,7 @@
 		BEDBBACC294F5B4A00FB3984 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBACB294F5B4A00FB3984 /* Fonts.swift */; };
 		BEDBBACE294F5B7400FB3984 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDBBACD294F5B7400FB3984 /* SF-Pro.ttf */; };
 		BEDBBAD0294F5B9200FB3984 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBACF294F5B9200FB3984 /* TextStyle.swift */; };
+		BEDBBAD2294F5C9100FB3984 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAD1294F5C9100FB3984 /* UIStackView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BEDBBACB294F5B4A00FB3984 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		BEDBBACD294F5B7400FB3984 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
 		BEDBBACF294F5B9200FB3984 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		BEDBBAD1294F5C9100FB3984 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				BEDBBAB9294F592200FB3984 /* ViewContainer.swift */,
 				BEDBBABB294F594900FB3984 /* UIView+Extension.swift */,
+				BEDBBAD1294F5C9100FB3984 /* UIStackView+Extension.swift */,
 			);
 			path = ViewContainer;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				BEDBBAD0294F5B9200FB3984 /* TextStyle.swift in Sources */,
 				BEDBBACC294F5B4A00FB3984 /* Fonts.swift in Sources */,
 				BEDBBABC294F594900FB3984 /* UIView+Extension.swift in Sources */,
+				BEDBBAD2294F5C9100FB3984 /* UIStackView+Extension.swift in Sources */,
 				BEDBBABA294F592200FB3984 /* ViewContainer.swift in Sources */,
 				BEDBBAC1294F599800FB3984 /* CustomViewController.swift in Sources */,
 				BEDBBAC6294F5A2A00FB3984 /* HomeView.swift in Sources */,
