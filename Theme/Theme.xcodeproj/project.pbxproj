@@ -10,6 +10,10 @@
 		BEDBBAA0294F568A00FB3984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBA9F294F568A00FB3984 /* AppDelegate.swift */; };
 		BEDBBAA9294F568D00FB3984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDBBAA8294F568D00FB3984 /* Assets.xcassets */; };
 		BEDBBAAC294F568D00FB3984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDBBAAA294F568D00FB3984 /* LaunchScreen.storyboard */; };
+		BEDBBABA294F592200FB3984 /* ViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAB9294F592200FB3984 /* ViewContainer.swift */; };
+		BEDBBABC294F594900FB3984 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBABB294F594900FB3984 /* UIView+Extension.swift */; };
+		BEDBBABF294F597700FB3984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBABE294F597700FB3984 /* ViewController.swift */; };
+		BEDBBAC1294F599800FB3984 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAC0294F599800FB3984 /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +22,10 @@
 		BEDBBAA8294F568D00FB3984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDBBAAB294F568D00FB3984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEDBBAAD294F568D00FB3984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDBBAB9294F592200FB3984 /* ViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainer.swift; sourceTree = "<group>"; };
+		BEDBBABB294F594900FB3984 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BEDBBABE294F597700FB3984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDBBAC0294F599800FB3984 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,28 @@
 		BEDBBAB7294F586300FB3984 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BEDBBABD294F595D00FB3984 /* CustomViewController */,
+				BEDBBAB8294F591100FB3984 /* ViewContainer */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		BEDBBAB8294F591100FB3984 /* ViewContainer */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBAB9294F592200FB3984 /* ViewContainer.swift */,
+				BEDBBABB294F594900FB3984 /* UIView+Extension.swift */,
+			);
+			path = ViewContainer;
+			sourceTree = "<group>";
+		};
+		BEDBBABD294F595D00FB3984 /* CustomViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBABE294F597700FB3984 /* ViewController.swift */,
+				BEDBBAC0294F599800FB3984 /* CustomViewController.swift */,
+			);
+			path = CustomViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +196,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDBBABC294F594900FB3984 /* UIView+Extension.swift in Sources */,
+				BEDBBABA294F592200FB3984 /* ViewContainer.swift in Sources */,
+				BEDBBAC1294F599800FB3984 /* CustomViewController.swift in Sources */,
+				BEDBBABF294F597700FB3984 /* ViewController.swift in Sources */,
 				BEDBBAA0294F568A00FB3984 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
