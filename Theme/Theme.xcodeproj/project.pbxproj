@@ -16,6 +16,9 @@
 		BEDBBAC1294F599800FB3984 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAC0294F599800FB3984 /* CustomViewController.swift */; };
 		BEDBBAC6294F5A2A00FB3984 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAC5294F5A2A00FB3984 /* HomeView.swift */; };
 		BEDBBAC8294F5A6700FB3984 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBAC7294F5A6700FB3984 /* HomeViewController.swift */; };
+		BEDBBACC294F5B4A00FB3984 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBACB294F5B4A00FB3984 /* Fonts.swift */; };
+		BEDBBACE294F5B7400FB3984 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDBBACD294F5B7400FB3984 /* SF-Pro.ttf */; };
+		BEDBBAD0294F5B9200FB3984 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBACF294F5B9200FB3984 /* TextStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		BEDBBAC0294F599800FB3984 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		BEDBBAC5294F5A2A00FB3984 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BEDBBAC7294F5A6700FB3984 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BEDBBACB294F5B4A00FB3984 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		BEDBBACD294F5B7400FB3984 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		BEDBBACF294F5B9200FB3984 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		BEDBBAB7294F586300FB3984 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BEDBBAC9294F5B1A00FB3984 /* FontUtilites */,
 				BEDBBABD294F595D00FB3984 /* CustomViewController */,
 				BEDBBAB8294F591100FB3984 /* ViewContainer */,
 			);
@@ -154,6 +161,24 @@
 				BEDBBAC5294F5A2A00FB3984 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BEDBBAC9294F5B1A00FB3984 /* FontUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBACA294F5B3B00FB3984 /* Fonts */,
+				BEDBBACF294F5B9200FB3984 /* TextStyle.swift */,
+			);
+			path = FontUtilites;
+			sourceTree = "<group>";
+		};
+		BEDBBACA294F5B3B00FB3984 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBACD294F5B7400FB3984 /* SF-Pro.ttf */,
+				BEDBBACB294F5B4A00FB3984 /* Fonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEDBBAAC294F568D00FB3984 /* LaunchScreen.storyboard in Resources */,
+				BEDBBACE294F5B7400FB3984 /* SF-Pro.ttf in Resources */,
 				BEDBBAA9294F568D00FB3984 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDBBAD0294F5B9200FB3984 /* TextStyle.swift in Sources */,
+				BEDBBACC294F5B4A00FB3984 /* Fonts.swift in Sources */,
 				BEDBBABC294F594900FB3984 /* UIView+Extension.swift in Sources */,
 				BEDBBABA294F592200FB3984 /* ViewContainer.swift in Sources */,
 				BEDBBAC1294F599800FB3984 /* CustomViewController.swift in Sources */,
