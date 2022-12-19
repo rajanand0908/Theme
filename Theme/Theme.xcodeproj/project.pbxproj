@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE6860742950C528007F1BDA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6860732950C528007F1BDA /* Colors.swift */; };
 		BEDBBAA0294F568A00FB3984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBBA9F294F568A00FB3984 /* AppDelegate.swift */; };
 		BEDBBAA9294F568D00FB3984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDBBAA8294F568D00FB3984 /* Assets.xcassets */; };
 		BEDBBAAC294F568D00FB3984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDBBAAA294F568D00FB3984 /* LaunchScreen.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE6860732950C528007F1BDA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		BEDBBA9C294F568A00FB3984 /* Theme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDBBA9F294F568A00FB3984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEDBBAA8294F568D00FB3984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE6860722950C50C007F1BDA /* ColorUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				BE6860732950C528007F1BDA /* Colors.swift */,
+			);
+			path = ColorUtilites;
+			sourceTree = "<group>";
+		};
 		BEDBBA93294F568A00FB3984 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		BEDBBAB7294F586300FB3984 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BE6860722950C50C007F1BDA /* ColorUtilites */,
 				BEDBBAC9294F5B1A00FB3984 /* FontUtilites */,
 				BEDBBABD294F595D00FB3984 /* CustomViewController */,
 				BEDBBAB8294F591100FB3984 /* ViewContainer */,
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEDBBAD0294F5B9200FB3984 /* TextStyle.swift in Sources */,
+				BE6860742950C528007F1BDA /* Colors.swift in Sources */,
 				BEDBBACC294F5B4A00FB3984 /* Fonts.swift in Sources */,
 				BEDBBABC294F594900FB3984 /* UIView+Extension.swift in Sources */,
 				BEDBBAD2294F5C9100FB3984 /* UIStackView+Extension.swift in Sources */,
