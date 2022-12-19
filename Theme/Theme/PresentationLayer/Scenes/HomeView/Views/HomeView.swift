@@ -14,7 +14,7 @@ final class HomeView: UIView {
   let titleLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.title.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Title"
     return label
   }()
@@ -22,7 +22,7 @@ final class HomeView: UIView {
   let secondaryTitleLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.secondaryTitle.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Title Secondary"
     return label
   }()
@@ -30,7 +30,7 @@ final class HomeView: UIView {
   let bodyTitleLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.bodyTitle.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Body Title"
     return label
   }()
@@ -38,7 +38,7 @@ final class HomeView: UIView {
   let bodyLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.body.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Body"
     return label
   }()
@@ -46,7 +46,7 @@ final class HomeView: UIView {
   let bodySecondaryLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.bodySecondary.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Body Secondary"
     return label
   }()
@@ -54,7 +54,7 @@ final class HomeView: UIView {
   let inputLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.input.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Input"
     return label
   }()
@@ -62,7 +62,7 @@ final class HomeView: UIView {
   let buttonLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.button.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Button"
     return label
   }()
@@ -70,7 +70,7 @@ final class HomeView: UIView {
   let detailLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.detail.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Detail"
     return label
   }()
@@ -78,7 +78,7 @@ final class HomeView: UIView {
   let detailSecondaryLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.detailSecondary.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Detail Secondary"
     return label
   }()
@@ -86,7 +86,7 @@ final class HomeView: UIView {
   let captionLabel: UILabel = {
     let label = UILabel()
     label.font = TextStyle.caption.font
-    label.textColor = .black
+    label.textColor = .appText
     label.text = "Caption"
     return label
   }()
@@ -116,7 +116,7 @@ private typealias SetupHelper = HomeView
 private extension SetupHelper {
   
   func setupUI() {
-    backgroundColor = .white
+    backgroundColor = .appBackground
     
     stackView.addArrangedSubviews(
       titleLabel, secondaryTitleLabel, bodyTitleLabel, bodyLabel, bodySecondaryLabel, inputLabel, detailLabel, detailSecondaryLabel, captionLabel)
